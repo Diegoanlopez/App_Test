@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Login App</string>
+    <string name="EmailText">Email</string>
+    <string name="ProviderText">Proveedor</string>
+    <string name="PasswordText">Contraseña</string>
+    <string name="RegisterText">Registrar</string>
+    <string name="LogInText">Acceder</string>
+    <string name="LogOutText">Cerrar sesion</string>
+    <string name="prefs_file">com.example.login_app.PREFERENCE.FILE_KEY</string>
+    <string name="title_activity_input_data">InputDataActivity</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="google_maps_key">AIzaSyBUfavfzsAQDeRCnukI0KvCA8bTEia86BY</string>
+</resources>
