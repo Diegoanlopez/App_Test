@@ -60,7 +60,7 @@ class AuthActivity : AppCompatActivity() {
         val spannableString = SpannableString(text)
         val clickableSpan1: ClickableSpan = object : ClickableSpan() {
             override fun onClick(p0: View) {
-                show_InputDataActivity("SignUp")
+                show_InputDataActivity("LogIn")
             }
 
             override fun updateDrawState(ds: TextPaint) {

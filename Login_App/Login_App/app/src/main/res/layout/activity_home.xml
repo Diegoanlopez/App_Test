@@ -63,14 +63,14 @@
             android:id="@+id/bottomMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:background="@drawable/shape_round_button_white"
-            android:textAlignment="center"
             app:itemIconTint="@color/blue_custom"
-            app:itemRippleColor="@color/Firebase_navy_blue"
             app:itemTextColor="@color/purple_700"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
             app:labelVisibilityMode="labeled"
-            app:menu="@menu/menu" />
+            app:itemRippleColor="@color/Firebase_navy_blue"
+            app:menu="@menu/menu"/>
 
         <Button
             android:id="@+id/logOutButton"
