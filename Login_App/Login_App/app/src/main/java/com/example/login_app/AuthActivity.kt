@@ -7,11 +7,11 @@ import android.content.pm.ActivityInfo
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Layout
+import android.text.*
+import android.text.method.LinkMovementMethod
+import android.text.style.ClickableSpan
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.LinearLayout
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -20,6 +20,8 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthCredential
 import com.google.firebase.auth.GoogleAuthProvider
+import kotlinx.android.synthetic.main.activity_auth.*
+import org.w3c.dom.Text
 
 class AuthActivity : AppCompatActivity() {
 
@@ -53,6 +55,25 @@ class AuthActivity : AppCompatActivity() {
         // Button Codes
         Setup()
 
+        val textView:TextView = findViewById(R.id.inicioSesion)
+        val text = "Ya tienes una cuenta? Inicia sesion"
+        val spannableString = SpannableString(text)
+        val clickableSpan1: ClickableSpan = object : ClickableSpan() {
+            override fun onClick(p0: View) {
+                show_InputDataActivity("SignUp")
+            }
+
+            override fun updateDrawState(ds: TextPaint) {
+                super.updateDrawState(ds)
+                ds.color =  Color.BLACK
+                ds.isUnderlineText = false
+            }
+        }
+
+        spannableString.setSpan(clickableSpan1, 22, 35, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        textView.setText(spannableString, TextView.BufferType.SPANNABLE)
+        textView.movementMethod = LinkMovementMethod.getInstance()
+
     }
 
     private fun Check_Session() {
@@ -71,6 +92,9 @@ class AuthActivity : AppCompatActivity() {
         val SignUpButton: Button = findViewById<Button>(R.id.SignUpButton)
         //val LogInButton = findViewById<Button>(R.id.LogInButton)
         val GoogleButton = findViewById<Button>(R.id.GoogleButton)
+
+
+
 
         // User Registration Button
         SignUpButton.setOnClickListener {
@@ -97,6 +121,8 @@ class AuthActivity : AppCompatActivity() {
             startActivityForResult(googleClient.signInIntent,GOOGLE_SIGN_IN)
         }
     }
+
+
 
     // Display Error Info
     private fun showAlert(msg: String) {

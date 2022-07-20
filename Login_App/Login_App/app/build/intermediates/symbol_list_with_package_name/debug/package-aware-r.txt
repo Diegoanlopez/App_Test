@@ -2784,6 +2784,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id inicioSesion
 id invisible
 id inward
 id italic
@@ -3000,7 +3001,11 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3035,6 +3040,7 @@ id up
 id useLogo
 id view
 id view2
+id view3
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner

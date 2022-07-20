@@ -69,6 +69,7 @@ id ic_last
 id ic_live
 id ic_profile
 id imageView
+id inicioSesion
 id itemImage
 id itemName
 id logOutButton
@@ -78,10 +79,15 @@ id settingsButton
 id spinnerMenu
 id textView
 id textView2
-id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
 id text_version
 id view
 id view2
+id view3
 layout activity_auth
 layout activity_home
 layout activity_input_data
