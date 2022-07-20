@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">976742318083</string>
+    <string name="google_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
+    <string name="google_app_id" translatable="false">1:976742318083:android:5b19889ba1d37203f44e36</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
+    <string name="google_storage_bucket" translatable="false">my-firebase-gps.appspot.com</string>
+    <string name="project_id" translatable="false">my-firebase-gps</string>
+</resources>

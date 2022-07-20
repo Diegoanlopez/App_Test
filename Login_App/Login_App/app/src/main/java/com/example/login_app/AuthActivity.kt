@@ -69,7 +69,7 @@ class AuthActivity : AppCompatActivity() {
 
         // Widgets Integration
         val SignUpButton: Button = findViewById<Button>(R.id.SignUpButton)
-        val LogInButton = findViewById<Button>(R.id.LogInButton)
+        //val LogInButton = findViewById<Button>(R.id.LogInButton)
         val GoogleButton = findViewById<Button>(R.id.GoogleButton)
 
         // User Registration Button
@@ -78,9 +78,9 @@ class AuthActivity : AppCompatActivity() {
         }
 
         // User Log In Button
-        LogInButton.setOnClickListener {
-            show_InputDataActivity("LogIn")
-        }
+        //* LogInButton.setOnClickListener {
+         //   show_InputDataActivity("LogIn")
+        //}
 
         // Google Log In Button
         GoogleButton.setOnClickListener {
