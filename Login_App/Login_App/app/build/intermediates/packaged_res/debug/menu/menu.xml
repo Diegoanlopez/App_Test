@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_live"
+        android:icon="@drawable/icon_gps_live"
+        app:showAsAction="ifRoom"
+        android:title="Live Location"/>
+    <item
+        android:id="@+id/ic_last"
+        android:icon="@drawable/icon_gps_last"
+        app:showAsAction="ifRoom"
+        android:title="Last Location" />
+
+    <item
+        android:id="@+id/ic_data"
+        android:icon="@drawable/icon_data_usage"
+        app:showAsAction="ifRoom"
+        android:title="Data Usage" />
+
+    <item
+        android:id="@+id/ic_profile"
+        android:icon="@drawable/icon_profile"
+        app:showAsAction="ifRoom"
+        android:title="Profile" />
+
+</menu>

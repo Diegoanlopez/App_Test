@@ -22,4 +22,15 @@
         <item name="colorPrimary">@color/white_custom</item>
     </style>
 
+
+    <style name="ButtonUI1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/UIButton1</item>
+    </style>
+    <style name="Invisible" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/SinFondo</item>
+    </style>
+    <style name="ButtonUI2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/UIButton2</item>
+    </style>
+
 </resources>

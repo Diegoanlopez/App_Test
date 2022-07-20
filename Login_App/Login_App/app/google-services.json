@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "976742318083",
-    "project_id": "my-firebase-gps",
-    "storage_bucket": "my-firebase-gps.appspot.com"
+    "project_number": "897073955879",
+    "project_id": "bicifinder-6db06",
+    "storage_bucket": "bicifinder-6db06.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:976742318083:android:5b19889ba1d37203f44e36",
+        "mobilesdk_app_id": "1:897073955879:android:194f62675500064b85fa02",
         "android_client_info": {
           "package_name": "com.example.login_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com",
+          "client_id": "897073955879-b8t29vosg31ae887t57kjdf67m20jrrm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE"
+          "current_key": "AIzaSyD4AJwGpV-Xnoc7vCypC2VMvsv4MzkLq1w"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com",
+              "client_id": "897073955879-b8t29vosg31ae887t57kjdf67m20jrrm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
