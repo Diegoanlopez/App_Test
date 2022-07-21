@@ -1,0 +1,667 @@
+Index: app/src/main/res/layout/activity_home.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".HomeActivity\">\r\n\r\n    <RelativeLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"vertical\"\r\n        app:layout_constraintTop_toTopOf=\"parent\">\r\n\r\n        <fragment xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n            xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n            xmlns:tools=\"http://schemas.android.com/tools\"\r\n            android:id=\"@+id/map\"\r\n            android:name=\"com.google.android.gms.maps.SupportMapFragment\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"\r\n            tools:context=\".MainActivity\" />\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"40dp\"\r\n            android:layout_marginTop=\"41dp\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <Button\r\n                android:id=\"@+id/settingsButton\"\r\n                android:layout_width=\"40dp\"\r\n                android:layout_height=\"40dp\"\r\n                android:layout_marginLeft=\"16dp\"\r\n                android:background=\"@drawable/shape_circle_button\"\r\n                android:drawableLeft=\"@drawable/icon_settings\"\r\n                android:gravity=\"center\"\r\n                android:paddingStart=\"5.5dp\"\r\n                android:paddingRight=\"100dp\"\r\n                android:textAlignment=\"center\"\r\n                android:theme=\"@style/WhiteButtonTheme\"\r\n                tools:ignore=\"SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck\" />\r\n\r\n            <Space\r\n                android:layout_width=\"8dp\"\r\n                android:layout_height=\"match_parent\" />\r\n\r\n            <Spinner\r\n                android:id=\"@+id/spinnerMenu\"\r\n                android:layout_width=\"270dp\"\r\n                android:layout_height=\"40dp\"\r\n                android:background=\"@drawable/shape_round_button_white\"\r\n                android:contentDescription=\"Seleccionar Dispositivo\"\r\n                tools:ignore=\"TouchTargetSizeCheck,TouchTargetSizeCheck\" />\r\n\r\n            <Space\r\n                android:layout_width=\"8dp\"\r\n                android:layout_height=\"match_parent\" />\r\n\r\n        </LinearLayout>\r\n\r\n        <com.google.android.material.bottomnavigation.BottomNavigationView\r\n            android:id=\"@+id/bottomMenu\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:background=\"@drawable/shape_round_button_white\"\r\n            app:itemIconTint=\"@color/blue_custom\"\r\n            app:itemTextColor=\"@color/purple_700\"\r\n            android:textAlignment=\"center\"\r\n            android:layout_alignParentBottom=\"true\"\r\n            app:labelVisibilityMode=\"labeled\"\r\n            app:itemRippleColor=\"@color/Firebase_navy_blue\"\r\n            app:menu=\"@menu/menu\"/>\r\n\r\n        <Button\r\n            android:id=\"@+id/logOutButton\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"50dp\"\r\n            android:layout_above=\"@+id/bottomMenu\"\r\n            android:layout_weight=\"1\"\r\n            android:text=\"Cerrar Sesion\"\r\n            tools:ignore=\"TextContrastCheck,TextContrastCheck,UnknownId\" />\r\n\r\n\r\n    </RelativeLayout>\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_home.xml b/app/src/main/res/layout/activity_home.xml
+--- a/app/src/main/res/layout/activity_home.xml	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/res/layout/activity_home.xml	(date 1658249140776)
+@@ -12,6 +12,17 @@
+         android:orientation="vertical"
+         app:layout_constraintTop_toTopOf="parent">
+ 
++        <com.google.android.material.floatingactionbutton.FloatingActionButton
++            android:id="@+id/Add_Device"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:clickable="true"
++            app:srcCompat="@android:drawable/ic_input_add"
++            android:layout_above="@+id/logOutButton"
++            android:layout_alignParentEnd="true"
++            android:layout_marginEnd="20dp"
++            android:focusable="true" />
++
+         <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+@@ -31,7 +42,7 @@
+                 android:id="@+id/settingsButton"
+                 android:layout_width="40dp"
+                 android:layout_height="40dp"
+-                android:layout_marginLeft="16dp"
++                android:layout_marginStart="16dp"
+                 android:background="@drawable/shape_circle_button"
+                 android:drawableLeft="@drawable/icon_settings"
+                 android:gravity="center"
+@@ -63,14 +74,14 @@
+             android:id="@+id/bottomMenu"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
++            android:layout_alignParentBottom="true"
+             android:background="@drawable/shape_round_button_white"
++            android:textAlignment="center"
+             app:itemIconTint="@color/blue_custom"
++            app:itemRippleColor="@color/Firebase_navy_blue"
+             app:itemTextColor="@color/purple_700"
+-            android:textAlignment="center"
+-            android:layout_alignParentBottom="true"
+             app:labelVisibilityMode="labeled"
+-            app:itemRippleColor="@color/Firebase_navy_blue"
+-            app:menu="@menu/menu"/>
++            app:menu="@menu/menu" />
+ 
+         <Button
+             android:id="@+id/logOutButton"
+Index: app/src/main/java/com/example/login_app/AuthActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.login_app\r\n\r\nimport android.content.Context\r\nimport android.content.Intent\r\nimport android.content.SharedPreferences\r\nimport android.content.pm.ActivityInfo\r\nimport android.graphics.Color\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport android.os.Bundle\r\nimport android.text.Layout\r\nimport android.view.View\r\nimport android.widget.Button\r\nimport android.widget.EditText\r\nimport android.widget.LinearLayout\r\nimport androidx.appcompat.app.AlertDialog\r\nimport com.google.android.gms.auth.api.signin.GoogleSignIn\r\nimport com.google.android.gms.auth.api.signin.GoogleSignInOptions\r\nimport com.google.android.gms.common.api.ApiException\r\nimport com.google.firebase.analytics.FirebaseAnalytics\r\nimport com.google.firebase.auth.FirebaseAuth\r\nimport com.google.firebase.auth.GoogleAuthCredential\r\nimport com.google.firebase.auth.GoogleAuthProvider\r\n\r\nclass AuthActivity : AppCompatActivity() {\r\n\r\n    private val GOOGLE_SIGN_IN = 100\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n\r\n        // Visualize Initially App\r\n        super.onCreate(savedInstanceState)\r\n\r\n        supportActionBar?.hide()                    // (Action Bar) Hide Action Bar\r\n        window.statusBarColor = Color.TRANSPARENT   // (Status Bar) Transparent Color\r\n\r\n        setContentView(R.layout.activity_auth)\r\n\r\n        // App Always Time in Vertical Mode\r\n        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT\r\n\r\n        // Remain in Immersive Mode Previous to When User Make Any Bar Action\r\n        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY             // (Immersion Mode) Put in Immersion Mode (Hide All Bar at Any Moment)\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE             // (Immersion Mode) Optimization\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN         // (Fullscreen) Guarantee FullScreen\r\n                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION           // (Navigation Bar) Hide Navigation Bar\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION    // (Navigation Bar) Optimization\r\n                or View.STATUS_BAR_HIDDEN                        // (Status Bar) Transition & Hide Notifications (Color change in Status Bar not included)\r\n                )\r\n\r\n        // When Previous Session is Open then go to Home Activity\r\n        Check_Session()\r\n\r\n        // Button Codes\r\n        Setup()\r\n\r\n    }\r\n\r\n    private fun Check_Session() {\r\n        val prefs:SharedPreferences = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)\r\n        val email:String? = prefs.getString(\"email\",null)\r\n        val provider:String? = prefs.getString(\"provider\",null)\r\n\r\n        if (email != null && provider != null){\r\n            show_HomeActivity(email,ProviderType.valueOf(provider))\r\n        }\r\n    }\r\n\r\n    private fun Setup(){\r\n\r\n        // Widgets Integration\r\n        val SignUpButton: Button = findViewById<Button>(R.id.SignUpButton)\r\n        val LogInButton = findViewById<Button>(R.id.LogInButton)\r\n        val GoogleButton = findViewById<Button>(R.id.GoogleButton)\r\n\r\n        // User Registration Button\r\n        SignUpButton.setOnClickListener {\r\n            show_InputDataActivity(\"SignUp\")\r\n        }\r\n\r\n        // User Log In Button\r\n        LogInButton.setOnClickListener {\r\n            show_InputDataActivity(\"LogIn\")\r\n        }\r\n\r\n        // Google Log In Button\r\n        GoogleButton.setOnClickListener {\r\n\r\n            // Configuration\r\n            val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)\r\n                .requestIdToken(getString(R.string.default_web_client_id))\r\n                .requestEmail()\r\n                .build()\r\n\r\n            val googleClient = GoogleSignIn.getClient(this,googleConf)\r\n            googleClient.signOut()\r\n\r\n            startActivityForResult(googleClient.signInIntent,GOOGLE_SIGN_IN)\r\n        }\r\n    }\r\n\r\n    // Display Error Info\r\n    private fun showAlert(msg: String) {\r\n        val builder = AlertDialog.Builder(this)\r\n        builder.setTitle(\"Error\")\r\n        builder.setMessage(msg)\r\n        builder.setPositiveButton(\"Aceptar\",null)\r\n        val dialog: AlertDialog = builder.create()\r\n        dialog.show()\r\n    }\r\n\r\n    // Open Home Activity\r\n    private fun show_HomeActivity(email: String, provider: ProviderType){\r\n        val homeIntent: Intent = Intent(this,HomeActivity::class.java).apply {\r\n            putExtra(\"email\",email)                 // Save Email Data to Next Activity\r\n            putExtra(\"provider\",provider.name)      // Save provider Data to Next Activity\r\n        }\r\n        startActivity(homeIntent)\r\n    }\r\n\r\n    // Open Input Data Activity\r\n    private fun show_InputDataActivity(identifier: String){\r\n        val homeIntent: Intent = Intent(this,InputDataActivity::class.java).apply {\r\n            putExtra(\"identifier\",identifier)       // Save Identifier Data to Next Activity\r\n        }\r\n        startActivity(homeIntent)\r\n    }\r\n\r\n    // Focus Function to Remain in Immersive Mode When User Make Any Bar Action\r\n    override fun onWindowFocusChanged(hasFocus: Boolean) {\r\n        super.onWindowFocusChanged(hasFocus)\r\n        if (hasFocus){\r\n            window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY             // (Immersion Mode) Put in Immersion Mode (Hide All Bar at Any Moment)\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_STABLE             // (Immersion Mode) Optimization\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN         // (Fullscreen) Guarantee FullScreen\r\n                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION           // (Navigation Bar) Hide Navigation Bar\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION    // (Navigation Bar) Optimization\r\n                    or View.STATUS_BAR_HIDDEN                        // (Status Bar) Transition & Hide Notifications (Color change in Status Bar not included)\r\n                    )\r\n        }\r\n    }\r\n\r\n    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {\r\n        super.onActivityResult(requestCode, resultCode, data)\r\n\r\n        if (requestCode == GOOGLE_SIGN_IN){\r\n            val task = GoogleSignIn.getSignedInAccountFromIntent(data)\r\n            try {\r\n                val account = task.getResult(ApiException::class.java)\r\n\r\n                if (account != null) {\r\n                    val credential = GoogleAuthProvider.getCredential(account.idToken,null)\r\n                    FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener {\r\n                        if (it.isSuccessful){\r\n                            show_HomeActivity(account.email ?: \"\",ProviderType.GOOGLE)\r\n                        }else{\r\n                            showAlert(\"Se ha producido un error autenticando al usuario\")\r\n                        }\r\n                    }\r\n                }\r\n            }catch (e:ApiException){\r\n                showAlert(e.toString())\r\n            }\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/login_app/AuthActivity.kt b/app/src/main/java/com/example/login_app/AuthActivity.kt
+--- a/app/src/main/java/com/example/login_app/AuthActivity.kt	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/java/com/example/login_app/AuthActivity.kt	(date 1658101625160)
+@@ -13,6 +13,9 @@
+ import android.widget.EditText
+ import android.widget.LinearLayout
+ import androidx.appcompat.app.AlertDialog
++import com.google.android.gms.auth.api.identity.BeginSignInRequest
++import com.google.android.gms.auth.api.identity.Identity
++import com.google.android.gms.auth.api.identity.SignInClient
+ import com.google.android.gms.auth.api.signin.GoogleSignIn
+ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+ import com.google.android.gms.common.api.ApiException
+@@ -20,10 +23,17 @@
+ import com.google.firebase.auth.FirebaseAuth
+ import com.google.firebase.auth.GoogleAuthCredential
+ import com.google.firebase.auth.GoogleAuthProvider
++import com.google.firebase.auth.ktx.auth
++import com.google.firebase.ktx.Firebase
+ 
+ class AuthActivity : AppCompatActivity() {
+ 
+     private val GOOGLE_SIGN_IN = 100
++    private lateinit var auth: FirebaseAuth
++    private lateinit var oneTapClient: SignInClient
++    private lateinit var signInRequest: BeginSignInRequest
++    private val REQ_ONE_TAP = 2  // Can be any integer unique to the Activity
++    private var showOneTapUI = true
+ 
+     override fun onCreate(savedInstanceState: Bundle?) {
+ 
+@@ -53,7 +63,21 @@
+         // Button Codes
+         Setup()
+ 
++        var signInRequest = BeginSignInRequest.builder()
++            .setGoogleIdTokenRequestOptions(
++                BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
++                    .setSupported(true)
++                    // Your server's client ID, not your Android client ID.
++                    .setServerClientId(getString(R.string.your_web_client_id))
++                    // Only show accounts previously used to sign in.
++                    .setFilterByAuthorizedAccounts(true)
++                    .build()
++            )
++            .build()
++        auth = Firebase.auth
++
+     }
++
+ 
+     private fun Check_Session() {
+         val prefs:SharedPreferences = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
+@@ -61,7 +85,7 @@
+         val provider:String? = prefs.getString("provider",null)
+ 
+         if (email != null && provider != null){
+-            show_HomeActivity(email,ProviderType.valueOf(provider))
++            show_HomeActivity(email, ProviderType.valueOf(provider))
+         }
+     }
+ 
+@@ -95,8 +119,11 @@
+             googleClient.signOut()
+ 
+             startActivityForResult(googleClient.signInIntent,GOOGLE_SIGN_IN)
++
+         }
+     }
++
++
+ 
+     // Display Error Info
+     private fun showAlert(msg: String) {
+Index: app/src/main/java/com/example/login_app/HomeActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.login_app\r\n\r\nimport android.Manifest\r\nimport android.content.Context\r\nimport android.content.SharedPreferences\r\nimport android.content.pm.PackageManager\r\nimport android.graphics.Color\r\nimport android.location.Location\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport android.os.Bundle\r\nimport android.view.View\r\nimport android.widget.*\r\nimport androidx.core.app.ActivityCompat\r\nimport com.google.android.gms.maps.CameraUpdateFactory\r\nimport com.google.android.gms.maps.GoogleMap\r\nimport com.google.android.gms.maps.OnMapReadyCallback\r\nimport com.google.android.gms.maps.SupportMapFragment\r\nimport com.google.android.gms.maps.model.LatLng\r\nimport com.google.android.gms.maps.model.MapStyleOptions\r\nimport com.google.android.gms.maps.model.MarkerOptions\r\nimport com.google.firebase.analytics.FirebaseAnalytics\r\nimport com.google.firebase.auth.FirebaseAuth\r\nimport kotlin.CharSequence\r\n\r\nenum class ProviderType{\r\n    BASIC,\r\n    GOOGLE\r\n}\r\n\r\nclass HomeActivity : AppCompatActivity(), OnMapReadyCallback,\r\n    GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener {\r\n\r\n    private lateinit var map: GoogleMap\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n\r\n        supportActionBar?.hide()                    // (Action Bar) Hide Action Bar\r\n        window.statusBarColor = Color.TRANSPARENT   // (Status Bar) Transparent Color\r\n\r\n        setContentView(R.layout.activity_home)\r\n\r\n        // Analytic Event to Log In Stats\r\n        val analytics = FirebaseAnalytics.getInstance(this)\r\n        val StatsBundle = Bundle()\r\n        StatsBundle.putString(\"message\",\"Integracion de Firebase Completa\")\r\n        analytics.logEvent(\"InitScreen\",StatsBundle)\r\n\r\n        // Bundle Data or Package Data of Previous Activity\r\n        val bundle:Bundle? = intent.extras\r\n        val email: String? = bundle?.getString(\"email\")         // Get Email\r\n        val provider: String? = bundle?.getString(\"provider\")   // Get Provider\r\n\r\n        // Save Session\r\n        val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()\r\n        prefs.putString(\"email\",email)\r\n        prefs.putString(\"provider\",provider)\r\n        prefs.apply()\r\n\r\n        createFragment()\r\n\r\n        setupCustomSpinner()\r\n\r\n        // Setup\r\n        setup(email ?: \"\", provider ?: \"\")             // If no parameter assign null\r\n\r\n\r\n\r\n    }\r\n\r\n    private fun setup(email: String, provider: String) {\r\n        // Widgets Integration\r\n        val logOutButton: Button = findViewById<Button>(R.id.logOutButton)\r\n        val settingsButton: Button = findViewById<Button>(R.id.settingsButton)\r\n\r\n        // User Log Out Button\r\n        logOutButton.setOnClickListener {\r\n            val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()\r\n            prefs.clear()\r\n            prefs.apply()\r\n\r\n            FirebaseAuth.getInstance().signOut()    // Firebase Log Out\r\n            onBackPressed()                         // Go to Previous Window\r\n        }\r\n\r\n        // User Settings Button\r\n        settingsButton.setOnClickListener {\r\n            Toast.makeText(this,\"Settings\",Toast.LENGTH_LONG).show()\r\n        }\r\n\r\n    }\r\n\r\n    private fun setupCustomSpinner(){\r\n        val spinnerMenu = findViewById<Spinner>(R.id.spinnerMenu)\r\n\r\n        val adapter = myArrayAdapter(this,DataSource.list!!)\r\n        spinnerMenu.adapter = adapter\r\n\r\n        spinnerMenu.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {\r\n            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {\r\n                val selectedItem = parent!!.getItemAtPosition(position).toString()\r\n                val init: Int = selectedItem.lastIndexOf('=')\r\n\r\n                Toast.makeText(this@HomeActivity, selectedItem.subSequence(init+1, selectedItem.length-1), Toast.LENGTH_LONG).show()\r\n            }\r\n\r\n            override fun onNothingSelected(p0: AdapterView<*>?) {}\r\n\r\n        }\r\n    }\r\n\r\n    private fun createFragment() {\r\n        val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment\r\n        mapFragment.getMapAsync(this)\r\n    }\r\n\r\n    // Focus Function to Remain in Immersive Mode When User Make Any Bar Action\r\n    override fun onWindowFocusChanged(hasFocus: Boolean) {\r\n        super.onWindowFocusChanged(hasFocus)\r\n        if (hasFocus){\r\n            window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY             // (Immersion Mode) Put in Immersion Mode (Hide All Bar at Any Moment)\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_STABLE             // (Immersion Mode) Optimization\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN         // (Fullscreen) Guarantee FullScreen\r\n                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION           // (Navigation Bar) Hide Navigation Bar\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION    // (Navigation Bar) Optimization\r\n                    or View.STATUS_BAR_HIDDEN                        // (Status Bar) Transition & Hide Notifications (Color change in Status Bar not included)\r\n                    )\r\n        }\r\n    }\r\n\r\n    override fun onMapReady(googleMap: GoogleMap) {\r\n        map = googleMap\r\n        createMarker()\r\n        map.mapType = GoogleMap.MAP_TYPE_NORMAL\r\n        map.setOnMyLocationButtonClickListener (this)\r\n        map.setOnMyLocationClickListener(this)\r\n        map.uiSettings.isZoomControlsEnabled = true\r\n        map.uiSettings.isMyLocationButtonEnabled = true\r\n    }\r\n\r\n    private fun createMarker() {\r\n        val coordinates = LatLng(1.207649, -77.287243)\r\n        val marker = MarkerOptions().position(coordinates).title(\"Mi Casa\")\r\n        map.addMarker((marker))\r\n        map.animateCamera(\r\n            CameraUpdateFactory.newLatLngZoom(coordinates, 20f), 3000, null\r\n        )\r\n    }\r\n\r\n    override fun onMyLocationButtonClick(): Boolean {\r\n        return false\r\n    }\r\n\r\n    override fun onMyLocationClick(p0: Location) {\r\n        //Evento para hacer click sobre el puntero de ubicacion actual\r\n        Toast.makeText(this, \"Estas en ${p0.latitude}, ${p0.longitude}\", Toast.LENGTH_LONG).show()\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/login_app/HomeActivity.kt b/app/src/main/java/com/example/login_app/HomeActivity.kt
+--- a/app/src/main/java/com/example/login_app/HomeActivity.kt	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/java/com/example/login_app/HomeActivity.kt	(date 1658249967598)
+@@ -8,6 +8,7 @@
+ import android.location.Location
+ import androidx.appcompat.app.AppCompatActivity
+ import android.os.Bundle
++import android.util.Log
+ import android.view.View
+ import android.widget.*
+ import androidx.core.app.ActivityCompat
+@@ -18,8 +19,13 @@
+ import com.google.android.gms.maps.model.LatLng
+ import com.google.android.gms.maps.model.MapStyleOptions
+ import com.google.android.gms.maps.model.MarkerOptions
++import com.google.android.material.floatingactionbutton.FloatingActionButton
+ import com.google.firebase.analytics.FirebaseAnalytics
+ import com.google.firebase.auth.FirebaseAuth
++import com.google.firebase.auth.ktx.auth
++import com.google.firebase.firestore.FirebaseFirestore
++import com.google.firebase.firestore.ktx.toObject
++import com.google.firebase.ktx.Firebase
+ import kotlin.CharSequence
+ 
+ enum class ProviderType{
+@@ -56,6 +62,33 @@
+         prefs.putString("email",email)
+         prefs.putString("provider",provider)
+         prefs.apply()
++        /*
++        val userCurrent = Firebase.auth.currentUser
++        if (userCurrent != null) {
++            // User is signed in
++            val uid = userCurrent.uid
++
++            val db = FirebaseFirestore.getInstance()
++            val user = hashMapOf(
++                "Bike1" to 12345
++            )
++
++            // Add a new document with a generated ID
++            db.collection("users").document(uid)
++                .set(user)
++                .addOnSuccessListener { documentReference ->
++                    Toast.makeText(this,"DocumentSnapshot added with ID: ${documentReference}",Toast.LENGTH_LONG).show()
++                }
++                .addOnFailureListener { e ->
++                    Log.w("errorF", "Error adding document", e)
++                }
++
++
++        } else {
++            // No user is signed in
++        }*/
++
++
+ 
+         createFragment()
+ 
+@@ -72,6 +105,7 @@
+         // Widgets Integration
+         val logOutButton: Button = findViewById<Button>(R.id.logOutButton)
+         val settingsButton: Button = findViewById<Button>(R.id.settingsButton)
++        val Added_Device: FloatingActionButton = findViewById(R.id.Add_Device)
+ 
+         // User Log Out Button
+         logOutButton.setOnClickListener {
+@@ -85,16 +119,52 @@
+ 
+         // User Settings Button
+         settingsButton.setOnClickListener {
++            //Toast.makeText(this,"Settings",Toast.LENGTH_LONG).show()
+             Toast.makeText(this,"Settings",Toast.LENGTH_LONG).show()
+         }
+ 
++        Added_Device.setOnClickListener{
++
++            Toast.makeText(this,"Added_Device",Toast.LENGTH_LONG).show()
++        }
++
++
++
+     }
+ 
+     private fun setupCustomSpinner(){
+         val spinnerMenu = findViewById<Spinner>(R.id.spinnerMenu)
+ 
+-        val adapter = myArrayAdapter(this,DataSource.list!!)
+-        spinnerMenu.adapter = adapter
++       //val adapter = myArrayAdapter(this,DataSource.list!!)
++        val userCurrent = Firebase.auth.currentUser
++        if (userCurrent != null) {
++            // User is signed in
++            val db = FirebaseFirestore.getInstance()
++            val uid = userCurrent.uid
++            db.collection("users").document(uid).get()
++                .addOnSuccessListener { document ->
++                    if (document != null) {
++                        Toast.makeText(this,"DocumentSnapshot data: ${document.data}",Toast.LENGTH_LONG).show()
++                        val adapter= document.data?.let {
++                            ArrayAdapter(this, android.R.layout.simple_spinner_item,
++                                it.toList())
++                        }
++                        spinnerMenu.adapter = adapter
++                    } else {
++
++                    }
++                }
++                .addOnFailureListener { exception ->
++
++                }
++
++
++
++        } else {
++            // No user is signed in
++        }
++        //spinnerMenu.adapter = adapter
++
+ 
+         spinnerMenu.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
+             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+Index: app/src/main/java/com/example/login_app/DataSource_Spinner.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.login_app\r\n\r\ndata class DataSource_Spinner(val image: Int, val name: String)\r\n\r\nobject DataSource{\r\n    private val myimages = intArrayOf(\r\n        R.drawable.icon_gps_last,\r\n        R.drawable.icon_gps_live,\r\n        R.drawable.icon_data_usage\r\n    )\r\n\r\n    private val myvalues = arrayOf(\r\n        \"Elemento 1\",\r\n        \"Elemento 2\",\r\n        \"Agregar Elemento\"\r\n    )\r\n\r\n    var list: ArrayList<DataSource_Spinner>? = null\r\n        get(){\r\n            if (field != null)\r\n                return field\r\n\r\n            field = ArrayList()\r\n\r\n            for (i in myimages.indices){\r\n                val imageId = myimages[i]\r\n                val imageName = myvalues[i]\r\n\r\n                val element = DataSource_Spinner(imageId, imageName)\r\n                field!!.add(element)\r\n            }\r\n            return field\r\n        }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/login_app/DataSource_Spinner.kt b/app/src/main/java/com/example/login_app/DataSource_Spinner.kt
+--- a/app/src/main/java/com/example/login_app/DataSource_Spinner.kt	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/java/com/example/login_app/DataSource_Spinner.kt	(date 1658186476910)
+@@ -1,5 +1,11 @@
+ package com.example.login_app
+ 
++import android.util.Log
++import android.widget.Toast
++import com.google.firebase.auth.ktx.auth
++import com.google.firebase.firestore.FirebaseFirestore
++import com.google.firebase.ktx.Firebase
++
+ data class DataSource_Spinner(val image: Int, val name: String)
+ 
+ object DataSource{
+@@ -9,7 +15,24 @@
+         R.drawable.icon_data_usage
+     )
+ 
+-    private val myvalues = arrayOf(
++    val userCurrent = Firebase.auth.currentUser
++    val db = FirebaseFirestore.getInstance()
++    val docRef = userCurrent?.let { db.collection("users").document(it.uid).get()
++        .addOnSuccessListener { document ->
++            if (document != null) {
++                Log.d("TAG", "DocumentSnapshot data: ${document.data}")
++
++            } else {
++                Log.d("TAG", "No such document")
++            }
++        }
++        .addOnFailureListener { exception ->
++            Log.d("TAG", "get failed with ", exception)
++        } }
++
++
++
++    val myvalues = arrayOf(
+         "Elemento 1",
+         "Elemento 2",
+         "Agregar Elemento"
+Index: app/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"project_info\": {\r\n    \"project_number\": \"976742318083\",\r\n    \"project_id\": \"my-firebase-gps\",\r\n    \"storage_bucket\": \"my-firebase-gps.appspot.com\"\r\n  },\r\n  \"client\": [\r\n    {\r\n      \"client_info\": {\r\n        \"mobilesdk_app_id\": \"1:976742318083:android:5b19889ba1d37203f44e36\",\r\n        \"android_client_info\": {\r\n          \"package_name\": \"com.example.login_app\"\r\n        }\r\n      },\r\n      \"oauth_client\": [\r\n        {\r\n          \"client_id\": \"976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com\",\r\n          \"client_type\": 3\r\n        }\r\n      ],\r\n      \"api_key\": [\r\n        {\r\n          \"current_key\": \"AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE\"\r\n        }\r\n      ],\r\n      \"services\": {\r\n        \"appinvite_service\": {\r\n          \"other_platform_oauth_client\": [\r\n            {\r\n              \"client_id\": \"976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com\",\r\n              \"client_type\": 3\r\n            }\r\n          ]\r\n        }\r\n      }\r\n    }\r\n  ],\r\n  \"configuration_version\": \"1\"\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/google-services.json b/app/google-services.json
+--- a/app/google-services.json	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/google-services.json	(date 1657920978036)
+@@ -1,33 +1,33 @@
+ {
+   "project_info": {
+-    "project_number": "976742318083",
+-    "project_id": "my-firebase-gps",
+-    "storage_bucket": "my-firebase-gps.appspot.com"
++    "project_number": "153637431800",
++    "project_id": "gps-bikes",
++    "storage_bucket": "gps-bikes.appspot.com"
+   },
+   "client": [
+     {
+       "client_info": {
+-        "mobilesdk_app_id": "1:976742318083:android:5b19889ba1d37203f44e36",
++        "mobilesdk_app_id": "1:153637431800:android:43039691330a3133438e0d",
+         "android_client_info": {
+           "package_name": "com.example.login_app"
+         }
+       },
+       "oauth_client": [
+         {
+-          "client_id": "976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com",
++          "client_id": "153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com",
+           "client_type": 3
+         }
+       ],
+       "api_key": [
+         {
+-          "current_key": "AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE"
++          "current_key": "AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U"
+         }
+       ],
+       "services": {
+         "appinvite_service": {
+           "other_platform_oauth_client": [
+             {
+-              "client_id": "976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com",
++              "client_id": "153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com",
+               "client_type": 3
+             }
+           ]
+Index: app/build/generated/res/google-services/debug/values/values.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/res/google-services/debug/values/values.xml b/app/build/generated/res/google-services/debug/values/values.xml
+new file mode 100644
+--- /dev/null	(date 1657922723002)
++++ b/app/build/generated/res/google-services/debug/values/values.xml	(date 1657922723002)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="default_web_client_id" translatable="false">153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com</string>
++    <string name="gcm_defaultSenderId" translatable="false">153637431800</string>
++    <string name="google_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
++    <string name="google_app_id" translatable="false">1:153637431800:android:43039691330a3133438e0d</string>
++    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
++    <string name="google_storage_bucket" translatable="false">gps-bikes.appspot.com</string>
++    <string name="project_id" translatable="false">gps-bikes</string>
++</resources>
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nplugins {\r\n    id 'com.android.application'\r\n    id 'org.jetbrains.kotlin.android'\r\n    id 'com.google.gms.google-services'\r\n    id 'kotlin-android-extensions'\r\n}\r\n\r\nandroid {\r\n    compileSdk 32\r\n\r\n    defaultConfig {\r\n        applicationId \"com.example.login_app\"\r\n        minSdk 23\r\n        targetSdk 32\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n    }\r\n\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n    kotlinOptions {\r\n        jvmTarget = '1.8'\r\n    }\r\n\r\n    // Lottie Animation\r\n    buildFeatures{\r\n        dataBinding true\r\n        viewBinding true\r\n    }\r\n}\r\n\r\ndependencies {\r\n\r\n    // Lottie Animation\r\n    implementation \"com.airbnb.android:lottie:3.6.1\"\r\n    implementation(\"org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1\")\r\n\r\n    // Firebase\r\n    implementation 'com.google.firebase:firebase-analytics-ktx'\r\n    implementation 'com.google.firebase:firebase-auth-ktx'\r\n    implementation platform('com.google.firebase:firebase-bom:30.2.0')\r\n\r\n    // Google Maps\r\n    implementation 'com.google.android.gms:play-services-maps:18.0.2'\r\n\r\n    // Google Log In\r\n    implementation 'com.google.android.gms:play-services-auth:20.2.0'\r\n\r\n    // Bottom Sheet Menu\r\n    implementation 'com.google.android.material:material:1.6.1'\r\n\r\n    // System\r\n    testImplementation 'junit:junit:4.13.2'\r\n    implementation 'androidx.core:core-ktx:1.7.0'\r\n    implementation 'androidx.appcompat:appcompat:1.3.0'\r\n    implementation 'androidx.annotation:annotation:1.2.0'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.3'\r\n    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'\r\n    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'\r\n    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/build.gradle	(date 1658098424272)
+@@ -50,6 +50,7 @@
+     implementation 'com.google.firebase:firebase-analytics-ktx'
+     implementation 'com.google.firebase:firebase-auth-ktx'
+     implementation platform('com.google.firebase:firebase-bom:30.2.0')
++    implementation 'com.google.firebase:firebase-firestore-ktx'
+ 
+     // Google Maps
+     implementation 'com.google.android.gms:play-services-maps:18.0.2'
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Login App</string>\r\n    <string name=\"EmailText\">Email</string>\r\n    <string name=\"ProviderText\">Proveedor</string>\r\n    <string name=\"PasswordText\">Contraseña</string>\r\n    <string name=\"RegisterText\">Registrar</string>\r\n    <string name=\"LogInText\">Acceder</string>\r\n    <string name=\"LogOutText\">Cerrar sesion</string>\r\n    <string name=\"prefs_file\">com.example.login_app.PREFERENCE.FILE_KEY</string>\r\n    <string name=\"title_activity_input_data\">InputDataActivity</string>\r\n\r\n    <string name=\"action_sign_in\">Sign in or register</string>\r\n    <string name=\"action_sign_in_short\">Sign in</string>\r\n    <string name=\"welcome\">\"Welcome !\"</string>\r\n    <string name=\"invalid_username\">Not a valid username</string>\r\n    <string name=\"invalid_password\">Password must be >5 characters</string>\r\n    <string name=\"login_failed\">\"Login failed\"</string>\r\n\r\n    <string name=\"google_maps_key\">AIzaSyBUfavfzsAQDeRCnukI0KvCA8bTEia86BY</string>\r\n</resources>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+--- a/app/src/main/res/values/strings.xml	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/res/values/strings.xml	(date 1657923465803)
+@@ -15,6 +15,7 @@
+     <string name="invalid_username">Not a valid username</string>
+     <string name="invalid_password">Password must be >5 characters</string>
+     <string name="login_failed">"Login failed"</string>
++    <string name="your_web_client_id">153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com</string>
+ 
+     <string name="google_maps_key">AIzaSyBUfavfzsAQDeRCnukI0KvCA8bTEia86BY</string>
+ </resources>
+\ No newline at end of file
+Index: app/build/generated/source/buildConfig/debug/com/example/login_app/BuildConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/source/buildConfig/debug/com/example/login_app/BuildConfig.java b/app/build/generated/source/buildConfig/debug/com/example/login_app/BuildConfig.java
+new file mode 100644
+--- /dev/null	(date 1657922725426)
++++ b/app/build/generated/source/buildConfig/debug/com/example/login_app/BuildConfig.java	(date 1657922725426)
+@@ -0,0 +1,12 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.example.login_app;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "com.example.login_app";
++  public static final String BUILD_TYPE = "debug";
++  public static final int VERSION_CODE = 1;
++  public static final String VERSION_NAME = "1.0";
++}
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>buildscript {\r\n    repositories {\r\n        // Check that you have the following line (if not, add it):\r\n        google()  // Google's Maven repository\r\n\r\n    }\r\n    dependencies {\r\n        // Add this line\r\n        classpath 'com.google.gms:google-services:4.3.12'\r\n\r\n    }\r\n\r\n}\r\n\r\nplugins {\r\n    id 'com.android.application' version '7.2.1' apply false\r\n    id 'com.android.library' version '7.2.1' apply false\r\n    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+--- a/build.gradle	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/build.gradle	(date 1657922405178)
+@@ -6,7 +6,7 @@
+     }
+     dependencies {
+         // Add this line
+-        classpath 'com.google.gms:google-services:4.3.12'
++        classpath 'com.google.gms:google-services:4.3.13'
+ 
+     }
+ 
+Index: app/build/generated/ap_generated_sources/debug/out/com/example/login_app/DataBinderMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/DataBinderMapperImpl.java b/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/DataBinderMapperImpl.java
+new file mode 100644
+--- /dev/null	(date 1658248597306)
++++ b/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/DataBinderMapperImpl.java	(date 1658248597306)
+@@ -0,0 +1,83 @@
++package com.example.login_app;
++
++import android.util.SparseArray;
++import android.util.SparseIntArray;
++import android.view.View;
++import androidx.databinding.DataBinderMapper;
++import androidx.databinding.DataBindingComponent;
++import androidx.databinding.ViewDataBinding;
++import java.lang.Integer;
++import java.lang.Object;
++import java.lang.Override;
++import java.lang.RuntimeException;
++import java.lang.String;
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.List;
++
++public class DataBinderMapperImpl extends DataBinderMapper {
++  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(0);
++
++  @Override
++  public ViewDataBinding getDataBinder(DataBindingComponent component, View view, int layoutId) {
++    int localizedLayoutId = INTERNAL_LAYOUT_ID_LOOKUP.get(layoutId);
++    if(localizedLayoutId > 0) {
++      final Object tag = view.getTag();
++      if(tag == null) {
++        throw new RuntimeException("view must have a tag");
++      }
++    }
++    return null;
++  }
++
++  @Override
++  public ViewDataBinding getDataBinder(DataBindingComponent component, View[] views, int layoutId) {
++    if(views == null || views.length == 0) {
++      return null;
++    }
++    int localizedLayoutId = INTERNAL_LAYOUT_ID_LOOKUP.get(layoutId);
++    if(localizedLayoutId > 0) {
++      final Object tag = views[0].getTag();
++      if(tag == null) {
++        throw new RuntimeException("view must have a tag");
++      }
++      switch(localizedLayoutId) {
++      }
++    }
++    return null;
++  }
++
++  @Override
++  public int getLayoutId(String tag) {
++    if (tag == null) {
++      return 0;
++    }
++    Integer tmpVal = InnerLayoutIdLookup.sKeys.get(tag);
++    return tmpVal == null ? 0 : tmpVal;
++  }
++
++  @Override
++  public String convertBrIdToString(int localId) {
++    String tmpVal = InnerBrLookup.sKeys.get(localId);
++    return tmpVal;
++  }
++
++  @Override
++  public List<DataBinderMapper> collectDependencies() {
++    ArrayList<DataBinderMapper> result = new ArrayList<DataBinderMapper>(1);
++    result.add(new androidx.databinding.library.baseAdapters.DataBinderMapperImpl());
++    return result;
++  }
++
++  private static class InnerBrLookup {
++    static final SparseArray<String> sKeys = new SparseArray<String>(1);
++
++    static {
++      sKeys.put(0, "_all");
++    }
++  }
++
++  private static class InnerLayoutIdLookup {
++    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(0);
++  }
++}
+Index: app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java
+new file mode 100644
+--- /dev/null	(date 1658248597309)
++++ b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBinderMapperImpl.java	(date 1658248597309)
+@@ -0,0 +1,7 @@
++package androidx.databinding;
++
++public class DataBinderMapperImpl extends MergedDataBinderMapper {
++  DataBinderMapperImpl() {
++    addMapper(new com.example.login_app.DataBinderMapperImpl());
++  }
++}
+Index: app/src/main/java/com/example/login_app/InputDataActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.login_app\r\n\r\nimport android.content.Intent\r\nimport android.content.pm.ActivityInfo\r\nimport android.graphics.Color\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport android.os.Bundle\r\nimport android.view.View\r\nimport android.widget.Button\r\nimport android.widget.EditText\r\nimport androidx.appcompat.app.AlertDialog\r\nimport com.google.firebase.auth.FirebaseAuth\r\n\r\nclass InputDataActivity : AppCompatActivity() {\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n\r\n        supportActionBar?.hide()                    // (Action Bar) Hide Action Bar\r\n        window.statusBarColor = Color.TRANSPARENT   // (Status Bar) Transparent Color\r\n\r\n        setContentView(R.layout.activity_input_data)\r\n\r\n        // App Always Time in Vertical Mode\r\n        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT\r\n\r\n        // Remain in Immersive Mode Previous to When User Make Any Bar Action\r\n        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY             // (Immersion Mode) Put in Immersion Mode (Hide All Bar at Any Moment)\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE             // (Immersion Mode) Optimization\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN         // (Fullscreen) Guarantee FullScreen\r\n                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION           // (Navigation Bar) Hide Navigation Bar\r\n                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION    // (Navigation Bar) Optimization\r\n                or View.STATUS_BAR_HIDDEN                        // (Status Bar) Transition & Hide Notifications (Color change in Status Bar not included)\r\n                )\r\n\r\n        // Bundle Data or Package Data of Previous Activity\r\n        val bundle:Bundle? = intent.extras\r\n        val identifier: String? = bundle?.getString(\"identifier\")         // Get Email\r\n\r\n        // Widgets Integration\r\n        val emailEditText = findViewById<EditText>(R.id.emailEditText)\r\n        val passwordEditText = findViewById<EditText>(R.id.passwordEditText)\r\n        val enterButton = findViewById<Button>(R.id.enterButton)\r\n\r\n        // Button Code\r\n        enterButton.setOnClickListener {\r\n            when (identifier) {\r\n\r\n                // User Registration\r\n                \"SignUp\" -> {\r\n                    if (emailEditText.text.isNotEmpty() && passwordEditText.text.isNotEmpty()){\r\n                        FirebaseAuth.getInstance().createUserWithEmailAndPassword(emailEditText.text.toString(),\r\n                            passwordEditText.text.toString()).addOnCompleteListener {\r\n\r\n                            if (it.isSuccessful){\r\n                                show_HomeActivity(it.result?.user?.email ?: \"\", ProviderType.BASIC)\r\n                            }else{\r\n                                showAlert(\"Se ha producido un error autenticando al usuario\")\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                // User Log In\r\n                \"LogIn\" -> {\r\n                    if (emailEditText.text.isNotEmpty() && passwordEditText.text.isNotEmpty()){\r\n                        FirebaseAuth.getInstance().signInWithEmailAndPassword(emailEditText.text.toString(),\r\n                            passwordEditText.text.toString()).addOnCompleteListener {\r\n\r\n                            if (it.isSuccessful){\r\n                                show_HomeActivity(it.result?.user?.email ?: \"\", ProviderType.BASIC)\r\n                            }else{\r\n                                showAlert(\"Se ha producido un error autenticando al usuario\")\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n\r\n    }\r\n\r\n    // Open Home Activity\r\n    private fun show_HomeActivity(email: String, provider: ProviderType){\r\n        val homeIntent: Intent = Intent(this,HomeActivity::class.java).apply {\r\n            putExtra(\"email\",email)                 // Save Email Data to Next Activity\r\n            putExtra(\"provider\",provider.name)      // Save provider Data to Next Activity\r\n        }\r\n        startActivity(homeIntent)\r\n    }\r\n\r\n    // Display Error Info\r\n    private fun showAlert(msg:String) {\r\n        val builder = AlertDialog.Builder(this)\r\n        builder.setTitle(\"Error\")\r\n        builder.setMessage(msg)\r\n        builder.setPositiveButton(\"Aceptar\",null)\r\n        val dialog: AlertDialog = builder.create()\r\n        dialog.show()\r\n    }\r\n\r\n    // Focus Function to Remain in Immersive Mode When User Make Any Bar Action\r\n    override fun onWindowFocusChanged(hasFocus: Boolean) {\r\n        super.onWindowFocusChanged(hasFocus)\r\n        if (hasFocus){\r\n            window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY             // (Immersion Mode) Put in Immersion Mode (Hide All Bar at Any Moment)\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_STABLE             // (Immersion Mode) Optimization\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN         // (Fullscreen) Guarantee FullScreen\r\n                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION           // (Navigation Bar) Hide Navigation Bar\r\n                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION    // (Navigation Bar) Optimization\r\n                    or View.STATUS_BAR_HIDDEN                        // (Status Bar) Transition & Hide Notifications (Color change in Status Bar not included)\r\n                    )\r\n        }\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/login_app/InputDataActivity.kt b/app/src/main/java/com/example/login_app/InputDataActivity.kt
+--- a/app/src/main/java/com/example/login_app/InputDataActivity.kt	(revision 8ec98932c6048e0f33fade75a2f2c377740c3ac6)
++++ b/app/src/main/java/com/example/login_app/InputDataActivity.kt	(date 1657932416041)
+@@ -10,6 +10,9 @@
+ import android.widget.EditText
+ import androidx.appcompat.app.AlertDialog
+ import com.google.firebase.auth.FirebaseAuth
++import com.google.firebase.auth.ktx.actionCodeSettings
++import com.google.firebase.auth.ktx.auth
++import com.google.firebase.ktx.Firebase
+ 
+ class InputDataActivity : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
+@@ -41,12 +44,14 @@
+         val passwordEditText = findViewById<EditText>(R.id.passwordEditText)
+         val enterButton = findViewById<Button>(R.id.enterButton)
+ 
++
+         // Button Code
+         enterButton.setOnClickListener {
+             when (identifier) {
+ 
+                 // User Registration
+                 "SignUp" -> {
++
+                     if (emailEditText.text.isNotEmpty() && passwordEditText.text.isNotEmpty()){
+                         FirebaseAuth.getInstance().createUserWithEmailAndPassword(emailEditText.text.toString(),
+                             passwordEditText.text.toString()).addOnCompleteListener {
+Index: app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java
+new file mode 100644
+--- /dev/null	(date 1658248597265)
++++ b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/DataBindingComponent.java	(date 1658248597265)
+@@ -0,0 +1,4 @@
++package androidx.databinding;
++
++public interface DataBindingComponent {
++}
+Index: app/build/generated/ap_generated_sources/debug/out/com/example/login_app/BR.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/BR.java b/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/BR.java
+new file mode 100644
+--- /dev/null	(date 1658248597290)
++++ b/app/build/generated/ap_generated_sources/debug/out/com/example/login_app/BR.java	(date 1658248597290)
+@@ -0,0 +1,5 @@
++package com.example.login_app;
++
++public class BR {
++  public static final int _all = 0;
++}
+Index: app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java
+new file mode 100644
+--- /dev/null	(date 1658248597288)
++++ b/app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java	(date 1658248597288)
+@@ -0,0 +1,5 @@
++package androidx.databinding.library.baseAdapters;
++
++public class BR {
++  public static final int _all = 0;
++}
+Index: app/build/generated/data_binding_trigger/debug/com/example/login_app/DataBindingTriggerClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build/generated/data_binding_trigger/debug/com/example/login_app/DataBindingTriggerClass.java b/app/build/generated/data_binding_trigger/debug/com/example/login_app/DataBindingTriggerClass.java
+new file mode 100644
+--- /dev/null	(date 1657922725410)
++++ b/app/build/generated/data_binding_trigger/debug/com/example/login_app/DataBindingTriggerClass.java	(date 1657922725410)
+@@ -0,0 +1,4 @@
++package com.example.login_app;
++
++@androidx.databinding.BindingBuildInfo
++public class DataBindingTriggerClass {}
+\ No newline at end of file
