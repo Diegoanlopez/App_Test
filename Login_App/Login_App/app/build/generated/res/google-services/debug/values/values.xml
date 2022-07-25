@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">976742318083</string>
-    <string name="google_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
-    <string name="google_app_id" translatable="false">1:976742318083:android:5b19889ba1d37203f44e36</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
-    <string name="google_storage_bucket" translatable="false">my-firebase-gps.appspot.com</string>
-    <string name="project_id" translatable="false">my-firebase-gps</string>
+    <string name="default_web_client_id" translatable="false">153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">153637431800</string>
+    <string name="google_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
+    <string name="google_app_id" translatable="false">1:153637431800:android:43039691330a3133438e0d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
+    <string name="google_storage_bucket" translatable="false">gps-bikes.appspot.com</string>
+    <string name="project_id" translatable="false">gps-bikes</string>
 </resources>

@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "897073955879",
-    "project_id": "bicifinder-6db06",
-    "storage_bucket": "bicifinder-6db06.appspot.com"
+    "project_number": "153637431800",
+    "project_id": "gps-bikes",
+    "storage_bucket": "gps-bikes.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:897073955879:android:194f62675500064b85fa02",
+        "mobilesdk_app_id": "1:153637431800:android:43039691330a3133438e0d",
         "android_client_info": {
           "package_name": "com.example.login_app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "897073955879-b8t29vosg31ae887t57kjdf67m20jrrm.apps.googleusercontent.com",
+          "client_id": "153637431800-vss514ehjleidu2i71akgk5t4fncij3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login_app",
+            "certificate_hash": "1a4079ed6c176784a28d5295616e4a345cf15d3f"
+          }
+        },
+        {
+          "client_id": "153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD4AJwGpV-Xnoc7vCypC2VMvsv4MzkLq1w"
+          "current_key": "AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "897073955879-b8t29vosg31ae887t57kjdf67m20jrrm.apps.googleusercontent.com",
+              "client_id": "153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
