@@ -20,6 +20,9 @@ import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlin.CharSequence
 
 enum class ProviderType{
@@ -42,6 +45,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
 
         // Analytic Event to Log In Stats
         val analytics = FirebaseAnalytics.getInstance(this)
+        val db = FirebaseFirestore.getInstance()
         val StatsBundle = Bundle()
         StatsBundle.putString("message","Integracion de Firebase Completa")
         analytics.logEvent("InitScreen",StatsBundle)
