@@ -2,26 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/ic_live"
-        android:icon="@drawable/icon_gps_live"
+        android:id="@+id/ic_path"
+        android:icon="@drawable/path"
         app:showAsAction="ifRoom"
-        android:title="Live Location"/>
+        android:title="Rutas"/>
     <item
-        android:id="@+id/ic_last"
-        android:icon="@drawable/icon_gps_last"
+        android:id="@+id/ic_find"
+        android:icon="@drawable/carrilbici"
         app:showAsAction="ifRoom"
-        android:title="Last Location" />
+        android:title="Mi bici" />
 
     <item
         android:id="@+id/ic_data"
         android:icon="@drawable/icon_data_usage"
         app:showAsAction="ifRoom"
         android:title="Data Usage" />
-
-    <item
-        android:id="@+id/ic_profile"
-        android:icon="@drawable/icon_profile"
-        app:showAsAction="ifRoom"
-        android:title="Profile" />
 
 </menu>

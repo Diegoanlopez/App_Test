@@ -240,6 +240,10 @@ attr chipSurfaceColor
 attr circleCrop
 attr circleRadius
 attr circularProgressIndicatorStyle
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clickAction
 attr clockFaceBackgroundColor
 attr clockHandColor
@@ -2436,6 +2440,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable backarrow_background
+drawable bottomsheet_shape
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2444,6 +2449,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable carrilbici
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2541,6 +2547,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable path
+drawable profile
 drawable rounded
 drawable shape_circle_button
 drawable shape_round_button
@@ -2720,6 +2728,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_Layout
 id dropdown_editable
 id dropdown_menu
 id dropdown_noneditable
@@ -2772,9 +2781,8 @@ id homeAsUp
 id honorRequest
 id hybrid
 id ic_data
-id ic_last
-id ic_live
-id ic_profile
+id ic_find
+id ic_path
 id icon
 id icon_group
 id icon_only
@@ -2784,6 +2792,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id inicioSesion
 id invisible
 id inward
 id italic
@@ -2802,7 +2811,6 @@ id line3
 id linear
 id listMode
 id list_item
-id logOutButton
 id lottie_layer_name
 id map
 id masked
@@ -2860,6 +2868,13 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_Info
+id nav_Logout
+id nav_Option
+id nav_Puntuar
+id nav_Report
+id nav_home
+id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2996,7 +3011,11 @@ id textStart
 id textTop
 id textView
 id textView2
-id textView3
+id textView4
+id textView5
+id textView6
+id textView7
+id textView8
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3029,8 +3048,10 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_name
 id view
 id view2
+id view3
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -3140,6 +3161,7 @@ layout activity_auth
 layout activity_home
 layout activity_input_data
 layout activity_splash
+layout bottomsheet_fragment
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3206,6 +3228,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3234,6 +3257,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu menu
+menu nav_menu
 mipmap google
 mipmap google3
 mipmap google3_foreground
@@ -3294,6 +3318,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string close
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -3405,6 +3430,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string mtrl_timepicker_confirm
+string open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3686,6 +3712,7 @@ style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
 style Base_Widget_MaterialComponents_TextView
 style BlueButtonTheme
+style BottomNavigationViewTextStyle
 style ButtonUI1
 style ButtonUI2
 style CardView
@@ -4504,6 +4531,7 @@ styleable Capability queryPatterns shortcutMatchRequired
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

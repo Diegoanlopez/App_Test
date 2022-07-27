@@ -1,22 +1,34 @@
 [
     {
-        "merged": "com.example.login_app-mergeDebugResources-31:/layout/spinner_item.xml",
-        "source": "com.example.login_app-main-34:/layout/spinner_item.xml"
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\activity_auth.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_auth.xml"
     },
     {
-        "merged": "com.example.login_app-mergeDebugResources-31:/layout/activity_auth.xml",
-        "source": "com.example.login_app-main-34:/layout/activity_auth.xml"
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\nav_header.xml"
     },
     {
-        "merged": "com.example.login_app-mergeDebugResources-31:/layout/activity_splash.xml",
-        "source": "com.example.login_app-main-34:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.login_app-mergeDebugResources-31:/layout/activity_input_data.xml",
-        "source": "com.example.login_app-main-34:/layout/activity_input_data.xml"
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.example.login_app-mergeDebugResources-31:/layout/activity_home.xml",
-        "source": "com.example.login_app-main-34:/layout/activity_home.xml"
+        "merged": "com.example.login_app-mergeDebugResources-32:/layout/bottomsheet_fragment.xml",
+        "source": "com.example.login_app-main-35:/layout/bottomsheet_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\bottomsheet_fragment.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\bottomsheet_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-mergeDebugResources-32:\\layout\\activity_input_data.xml",
+        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_input_data.xml"
     }
 ]

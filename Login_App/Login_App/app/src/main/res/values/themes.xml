@@ -10,6 +10,13 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
+
+
+    <style name="BottomNavigationViewTextStyle">
+        ...
+        <item name="android:fontFamily">@font/robotoregular</item>
+        ...
+    </style>
     <style name="GreenButtonTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/green_custom</item>
     </style>

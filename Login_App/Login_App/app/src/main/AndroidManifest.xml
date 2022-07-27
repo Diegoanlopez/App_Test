@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/splash_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Login_App"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
 
 

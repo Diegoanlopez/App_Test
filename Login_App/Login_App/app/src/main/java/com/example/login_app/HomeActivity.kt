@@ -8,9 +8,13 @@ import android.graphics.Color
 import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.*
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.app.ActivityCompat
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -18,6 +22,9 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.material.bottomappbar.BottomAppBarTopEdgeTreatment
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 import kotlin.CharSequence
@@ -30,7 +37,10 @@ enum class ProviderType{
 class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
     GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener {
 
+    lateinit var toggle: ActionBarDrawerToggle
     private lateinit var map: GoogleMap
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +49,7 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         window.statusBarColor = Color.TRANSPARENT   // (Status Bar) Transparent Color
 
         setContentView(R.layout.activity_home)
+
 
         // Analytic Event to Log In Stats
         val analytics = FirebaseAnalytics.getInstance(this)
@@ -64,30 +75,64 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         // Setup
         setup(email ?: "", provider ?: "")             // If no parameter assign null
 
-
-
     }
 
     private fun setup(email: String, provider: String) {
         // Widgets Integration
-        val logOutButton: Button = findViewById<Button>(R.id.logOutButton)
         val settingsButton: Button = findViewById<Button>(R.id.settingsButton)
 
-        // User Log Out Button
-        logOutButton.setOnClickListener {
-            val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
-            prefs.clear()
-            prefs.apply()
 
-            FirebaseAuth.getInstance().signOut()    // Firebase Log Out
-            onBackPressed()                         // Go to Previous Window
+        //Drawer menu and BottomNavigationView
+        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_Layout)
+        val navView: NavigationView = findViewById(R.id.nav_view)
+        val botNav: BottomNavigationView = findViewById(R.id.bottomMenu)
+        val bottomSheetFragment = BottomSheetFragment()
+
+        toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        botNav.setOnNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.ic_find-> createMarker()
+                R.id.ic_data-> Toast.makeText(this,"Ruta",Toast.LENGTH_SHORT).show()
+                R.id.ic_path-> bottomSheetFragment.show(supportFragmentManager,"BottomSheetDialog")
+            }
+
+            true
         }
+
+
+
+        navView.setNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.nav_home-> Toast.makeText(applicationContext,"Clicked", Toast.LENGTH_SHORT).show()
+                R.id.nav_Logout-> {
+                    val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
+                    prefs.clear()
+                    prefs.apply()
+                    FirebaseAuth.getInstance().signOut()    // Firebase Log Out
+                    onBackPressed()
+                }
+            }
+            true
+        }
+
 
         // User Settings Button
         settingsButton.setOnClickListener {
-            Toast.makeText(this,"Settings",Toast.LENGTH_LONG).show()
+            drawerLayout.openDrawer(GravityCompat.START)
         }
 
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (toggle.onOptionsItemSelected(item)){
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun setupCustomSpinner(){
@@ -134,7 +179,8 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         map.mapType = GoogleMap.MAP_TYPE_NORMAL
         map.setOnMyLocationButtonClickListener (this)
         map.setOnMyLocationClickListener(this)
-        map.uiSettings.isZoomControlsEnabled = true
+        map.uiSettings.isZoomControlsEnabled = false
+        map.uiSettings.isCompassEnabled = false
         map.uiSettings.isMyLocationButtonEnabled = true
     }
 

@@ -62,6 +62,8 @@ dependencies {
     // Bottom Sheet Menu
     implementation 'com.google.android.material:material:1.6.1'
 
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
     // System
     testImplementation 'junit:junit:4.13.2'
     implementation 'androidx.core:core-ktx:1.8.0'

@@ -31,13 +31,13 @@ public final class ActivityAuthBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final TextView inicioSesion;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
   public final TextView textView2;
-
-  @NonNull
-  public final TextView textView3;
 
   @NonNull
   public final View view;
@@ -47,15 +47,15 @@ public final class ActivityAuthBinding implements ViewBinding {
 
   private ActivityAuthBinding(@NonNull ConstraintLayout rootView,
       @NonNull MaterialButton GoogleButton, @NonNull MaterialButton SignUpButton,
-      @NonNull ImageView imageView, @NonNull TextView textView, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull View view, @NonNull View view2) {
+      @NonNull ImageView imageView, @NonNull TextView inicioSesion, @NonNull TextView textView,
+      @NonNull TextView textView2, @NonNull View view, @NonNull View view2) {
     this.rootView = rootView;
     this.GoogleButton = GoogleButton;
     this.SignUpButton = SignUpButton;
     this.imageView = imageView;
+    this.inicioSesion = inicioSesion;
     this.textView = textView;
     this.textView2 = textView2;
-    this.textView3 = textView3;
     this.view = view;
     this.view2 = view2;
   }
@@ -105,6 +105,12 @@ public final class ActivityAuthBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.inicioSesion;
+      TextView inicioSesion = ViewBindings.findChildViewById(rootView, id);
+      if (inicioSesion == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -114,12 +120,6 @@ public final class ActivityAuthBinding implements ViewBinding {
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
         break missingId;
       }
 
@@ -136,7 +136,7 @@ public final class ActivityAuthBinding implements ViewBinding {
       }
 
       return new ActivityAuthBinding((ConstraintLayout) rootView, GoogleButton, SignUpButton,
-          imageView, textView, textView2, textView3, view, view2);
+          imageView, inicioSesion, textView, textView2, view, view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
