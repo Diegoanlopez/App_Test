@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+anim from_bottom_anim
+anim rotate_close_anim
+anim rotate_open_anim
+anim to_bottom_anim
 color Firebase_blue
 color Firebase_navy_blue
 color SinFondo
@@ -63,6 +67,9 @@ font robotoblacn
 font robotobold
 font robotocondensedbold
 font robotoregular
+id Add_Bike
+id Add_GPS_Device
+id Add_Road
 id GoogleButton
 id SignUpButton
 id bottomMenu
@@ -76,6 +83,7 @@ id imageView
 id inicioSesion
 id itemImage
 id itemName
+id left_nav
 id map
 id nav_Info
 id nav_Logout
@@ -95,6 +103,7 @@ id textView6
 id textView7
 id textView8
 id text_version
+id user_email
 id user_name
 id view
 id view2

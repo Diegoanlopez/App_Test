@@ -20,10 +20,15 @@ public final class NavHeaderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextView userEmail;
+
+  @NonNull
   public final TextView userName;
 
-  private NavHeaderBinding(@NonNull LinearLayout rootView, @NonNull TextView userName) {
+  private NavHeaderBinding(@NonNull LinearLayout rootView, @NonNull TextView userEmail,
+      @NonNull TextView userName) {
     this.rootView = rootView;
+    this.userEmail = userEmail;
     this.userName = userName;
   }
 
@@ -54,13 +59,19 @@ public final class NavHeaderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.user_email;
+      TextView userEmail = ViewBindings.findChildViewById(rootView, id);
+      if (userEmail == null) {
+        break missingId;
+      }
+
       id = R.id.user_name;
       TextView userName = ViewBindings.findChildViewById(rootView, id);
       if (userName == null) {
         break missingId;
       }
 
-      return new NavHeaderBinding((LinearLayout) rootView, userName);
+      return new NavHeaderBinding((LinearLayout) rootView, userEmail, userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -28,9 +28,13 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 anim fragment_fast_out_extra_slow_in
+anim from_bottom_anim
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim rotate_close_anim
+anim rotate_open_anim
+anim to_bottom_anim
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2567,6 +2571,9 @@ font robotobold
 font robotocondensedbold
 font robotoregular
 id ALT
+id Add_Bike
+id Add_GPS_Device
+id Add_Road
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -2805,6 +2812,7 @@ id labeled
 id layout
 id left
 id leftToRight
+id left_nav
 id light
 id line1
 id line3
@@ -3048,6 +3056,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_email
 id user_name
 id view
 id view2

@@ -1,18 +1,17 @@
 package com.example.login_app
 
-import android.Manifest
 import android.content.Context
 import android.content.SharedPreferences
-import android.content.pm.PackageManager
 import android.graphics.Color
 import android.location.Location
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.*
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.core.app.ActivityCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -20,14 +19,15 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.material.bottomappbar.BottomAppBarTopEdgeTreatment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.analytics.FirebaseAnalytics
+import com.google.firebase.auth.ActionCodeSettings
 import com.google.firebase.auth.FirebaseAuth
-import kotlin.CharSequence
+import com.google.firebase.auth.ktx.actionCodeSettings
+import kotlinx.android.synthetic.main.activity_home.*
 
 enum class ProviderType{
     BASIC,
@@ -40,7 +40,11 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
     lateinit var toggle: ActionBarDrawerToggle
     private lateinit var map: GoogleMap
 
-
+    private val rotateOpen: Animation by lazy {AnimationUtils.loadAnimation(this, R.anim.rotate_open_anim)}
+    private val rotateClose: Animation by lazy {AnimationUtils.loadAnimation(this, R.anim.rotate_close_anim)}
+    private val fromBottom: Animation by lazy {AnimationUtils.loadAnimation(this, R.anim.from_bottom_anim)}
+    private val toBottom: Animation by lazy {AnimationUtils.loadAnimation(this, R.anim.to_bottom_anim)}
+    var Clicked=false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,7 +53,6 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         window.statusBarColor = Color.TRANSPARENT   // (Status Bar) Transparent Color
 
         setContentView(R.layout.activity_home)
-
 
         // Analytic Event to Log In Stats
         val analytics = FirebaseAnalytics.getInstance(this)
@@ -68,6 +71,50 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         prefs.putString("provider",provider)
         prefs.apply()
 
+        //Anim Floating Bottom
+        Add_Bike.setOnClickListener(){
+
+          onAddbuttonClicked()
+        }
+        Add_GPS_Device.setOnClickListener(){
+            Toast.makeText(this,"Añadir Dispositivo",Toast.LENGTH_SHORT).show()
+
+        }
+        Add_Road.setOnClickListener(){
+            Toast.makeText(this,"Añadir Ruta",Toast.LENGTH_SHORT).show()
+
+        }
+
+        //Current User
+        val user = FirebaseAuth.getInstance().currentUser
+        /*if (user != null) {
+            if (user.isEmailVerified){
+
+                Toast.makeText(this,"Correo Verificado", Toast.LENGTH_LONG).show()
+
+            }else{
+                Toast.makeText(this,"Correo no Verificado, por favor verifiquelo", Toast.LENGTH_LONG).show()
+                user.sendEmailVerification()
+                    .addOnCompleteListener { task ->
+                        if (task.isSuccessful) {
+                            Toast.makeText(this,"correo enviado :3", Toast.LENGTH_LONG).show()
+                        }
+                    }
+            }
+        }*/
+
+        val actionCodeSettings = actionCodeSettings {
+            // URL you want to redirect back to. The domain (www.example.com) for this
+            // URL must be whitelisted in the Firebase Console.
+            url = "https://www.example.com/finishSignUp?cartId=1234"
+            // This must be true
+            handleCodeInApp = true
+            setIOSBundleId("com.example.ios")
+            setAndroidPackageName(
+                "com.example.android",
+                true, /* installIfNotAvailable */
+                "12" /* minimumVersion */)
+        }
         createFragment()
 
         setupCustomSpinner()
@@ -77,7 +124,47 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
 
     }
 
+    private fun onAddbuttonClicked() {
+        setVisibility(Clicked)
+        setAnimation(Clicked)
+        Clicked=!Clicked
+
+    }
+
+    private fun setVisibility(Clicked:Boolean) {
+        if (!Clicked){
+            Add_Road.visibility=View.VISIBLE
+            Add_GPS_Device.visibility=View.VISIBLE
+            Add_Road.isClickable= true
+            Add_GPS_Device.isClickable= true
+        }else{
+            Add_Road.visibility=View.INVISIBLE
+            Add_GPS_Device.visibility=View.INVISIBLE
+            Add_Road.isClickable= false
+            Add_GPS_Device.isClickable= false
+        }
+
+    }
+
+    private fun setAnimation(Clicked:Boolean) {
+        if (!Clicked){
+
+            Add_Road.startAnimation(fromBottom)
+            Add_GPS_Device.startAnimation(fromBottom)
+            Add_Bike.startAnimation(rotateClose)
+        }else{
+            Add_Road.startAnimation(toBottom)
+            Add_GPS_Device.startAnimation(toBottom)
+            Add_Bike.startAnimation(rotateOpen)
+        }
+
+    }
+
     private fun setup(email: String, provider: String) {
+        //Current User
+        val user = FirebaseAuth.getInstance().currentUser
+
+
         // Widgets Integration
         val settingsButton: Button = findViewById<Button>(R.id.settingsButton)
 
@@ -85,9 +172,9 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         //Drawer menu and BottomNavigationView
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_Layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
+        //val usernameDisplay:TextView = nav_view.findViewById(R.id.user_name)
         val botNav: BottomNavigationView = findViewById(R.id.bottomMenu)
         val bottomSheetFragment = BottomSheetFragment()
-
         toggle = ActionBarDrawerToggle(this, drawerLayout, R.string.open, R.string.close)
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
@@ -104,12 +191,15 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         }
 
 
+        if (user != null) {
+            //usernameDisplay.text= user.displayName
+        }
 
         navView.setNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.nav_home-> Toast.makeText(applicationContext,"Clicked", Toast.LENGTH_SHORT).show()
                 R.id.nav_Logout-> {
-                    val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
+                    val prefs:SharedPreferences.Editor = getSharedPreferences(getString(R.string.prefs_file), MODE_PRIVATE).edit()
                     prefs.clear()
                     prefs.apply()
                     FirebaseAuth.getInstance().signOut()    // Firebase Log Out
@@ -123,6 +213,13 @@ class HomeActivity : AppCompatActivity(), OnMapReadyCallback,
         // User Settings Button
         settingsButton.setOnClickListener {
             drawerLayout.openDrawer(GravityCompat.START)
+            val usernameDisplay:TextView = nav_view.findViewById(R.id.user_name)
+            val emailDisplay:TextView = nav_view.findViewById(R.id.user_email)
+            if (user != null) {
+                usernameDisplay.text= user.displayName
+                emailDisplay.text = user.email
+
+            }
         }
 
     }

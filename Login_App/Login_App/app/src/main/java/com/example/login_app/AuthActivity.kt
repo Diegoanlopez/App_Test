@@ -14,10 +14,7 @@ import android.text.TextPaint
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -176,7 +173,9 @@ class AuthActivity : AppCompatActivity() {
                     val credential = GoogleAuthProvider.getCredential(account.idToken,null)
                     FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener {
                         if (it.isSuccessful){
+
                             show_HomeActivity(account.email ?: "",ProviderType.GOOGLE)
+
                         }else{
                             showAlert("Se ha producido un error autenticando al usuario")
                         }

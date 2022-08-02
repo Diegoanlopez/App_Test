@@ -8,15 +8,14 @@
     tools:context=".HomeActivity">
 
     <RelativeLayout
+        android:id="@+id/left_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <fragment
             android:id="@+id/map"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
@@ -82,6 +81,45 @@
             app:labelVisibilityMode="labeled"
             app:menu="@menu/menu" />
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Add_Bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomMenu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:theme="@style/WhiteButtonTheme"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Add_Road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Add_GPS_Device"
+            android:layout_alignEnd="@+id/Add_GPS_Device"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:theme="@style/WhiteButtonTheme"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/icon_gps_live" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Add_GPS_Device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Add_Bike"
+            android:layout_alignEnd="@+id/Add_Bike"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:theme="@style/WhiteButtonTheme"
+            android:visibility="invisible"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
 
     </RelativeLayout>
     <com.google.android.material.navigation.NavigationView
@@ -93,5 +131,6 @@
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/nav_header"
         />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

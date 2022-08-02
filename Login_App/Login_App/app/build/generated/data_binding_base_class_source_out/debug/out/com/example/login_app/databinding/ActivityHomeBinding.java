@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +14,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.login_app.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,10 +25,22 @@ public final class ActivityHomeBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
+  public final FloatingActionButton AddBike;
+
+  @NonNull
+  public final FloatingActionButton AddGPSDevice;
+
+  @NonNull
+  public final FloatingActionButton AddRoad;
+
+  @NonNull
   public final BottomNavigationView bottomMenu;
 
   @NonNull
   public final DrawerLayout drawerLayout;
+
+  @NonNull
+  public final RelativeLayout leftNav;
 
   @NonNull
   public final NavigationView navView;
@@ -37,13 +51,18 @@ public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
   public final Spinner spinnerMenu;
 
-  private ActivityHomeBinding(@NonNull DrawerLayout rootView,
+  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull FloatingActionButton AddBike,
+      @NonNull FloatingActionButton AddGPSDevice, @NonNull FloatingActionButton AddRoad,
       @NonNull BottomNavigationView bottomMenu, @NonNull DrawerLayout drawerLayout,
-      @NonNull NavigationView navView, @NonNull Button settingsButton,
-      @NonNull Spinner spinnerMenu) {
+      @NonNull RelativeLayout leftNav, @NonNull NavigationView navView,
+      @NonNull Button settingsButton, @NonNull Spinner spinnerMenu) {
     this.rootView = rootView;
+    this.AddBike = AddBike;
+    this.AddGPSDevice = AddGPSDevice;
+    this.AddRoad = AddRoad;
     this.bottomMenu = bottomMenu;
     this.drawerLayout = drawerLayout;
+    this.leftNav = leftNav;
     this.navView = navView;
     this.settingsButton = settingsButton;
     this.spinnerMenu = spinnerMenu;
@@ -76,6 +95,24 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Add_Bike;
+      FloatingActionButton AddBike = ViewBindings.findChildViewById(rootView, id);
+      if (AddBike == null) {
+        break missingId;
+      }
+
+      id = R.id.Add_GPS_Device;
+      FloatingActionButton AddGPSDevice = ViewBindings.findChildViewById(rootView, id);
+      if (AddGPSDevice == null) {
+        break missingId;
+      }
+
+      id = R.id.Add_Road;
+      FloatingActionButton AddRoad = ViewBindings.findChildViewById(rootView, id);
+      if (AddRoad == null) {
+        break missingId;
+      }
+
       id = R.id.bottomMenu;
       BottomNavigationView bottomMenu = ViewBindings.findChildViewById(rootView, id);
       if (bottomMenu == null) {
@@ -83,6 +120,12 @@ public final class ActivityHomeBinding implements ViewBinding {
       }
 
       DrawerLayout drawerLayout = (DrawerLayout) rootView;
+
+      id = R.id.left_nav;
+      RelativeLayout leftNav = ViewBindings.findChildViewById(rootView, id);
+      if (leftNav == null) {
+        break missingId;
+      }
 
       id = R.id.nav_view;
       NavigationView navView = ViewBindings.findChildViewById(rootView, id);
@@ -102,8 +145,8 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityHomeBinding((DrawerLayout) rootView, bottomMenu, drawerLayout, navView,
-          settingsButton, spinnerMenu);
+      return new ActivityHomeBinding((DrawerLayout) rootView, AddBike, AddGPSDevice, AddRoad,
+          bottomMenu, drawerLayout, leftNav, navView, settingsButton, spinnerMenu);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

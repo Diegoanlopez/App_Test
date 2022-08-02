@@ -4,7 +4,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginTop="50dp"
-
     >
     
     <de.hdodenhof.circleimageview.CircleImageView
@@ -26,21 +25,18 @@
         />
 
     <TextView
+        android:id="@+id/user_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:textSize="16sp"
         android:text="nombredeusuario@gmail.com"
-        />
+        android:textSize="16sp" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_marginTop="20dp"
         />
-
-
-
-
 
 
 </LinearLayout>
