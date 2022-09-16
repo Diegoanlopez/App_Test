@@ -1,446 +1,490 @@
 [
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_life360_wallpaper.jpg.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\life360_wallpaper.jpg"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_google_round.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\google_round.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_google3_round.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\google3_round.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google3.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google3.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_shape_round_button_color.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\shape_round_button_color.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_logo_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\logo_google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_map2_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\map2_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_robotoregular.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\robotoregular.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_ic_rectangle_5.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\ic_rectangle_5.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google3_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google3_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_profile.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_profile.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_map2_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\map2_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_robotobold.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\robotobold.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_map2.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\map2.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_logo_gps.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\logo_gps.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_google3.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\google3.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google3_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google3_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_map2_round.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\map2_round.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_map2.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\map2.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google3_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google3_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_profile.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_profile.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_map2_round.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\map2_round.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google3.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google3.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_backarrow_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\backarrow_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_map2_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\map2_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap_spotify_wallpaper.jpg.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap\\spotify_wallpaper.jpg"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_path.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\path.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_map2_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\map2_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_map2.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\map2.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_ic_rectangle_5.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\ic_rectangle_5.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google3_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google3_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_google_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\google_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_opensansreg.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\opensansreg.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_map2_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\map2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_map2_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\map2_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_gps_live.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_gps_live.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_splashscreen.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\splashscreen.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-pngs-27:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_map2_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\map2_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_google3.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\google3.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_ic_mail_fill0_wght400_grad0_opsz48.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\ic_mail_fill0_wght400_grad0_opsz48.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_map2_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\map2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_splashscreen.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\splashscreen.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_shape_round_button_white.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\shape_round_button_white.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google3_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google3_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_google.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\google.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_carrilbici.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\carrilbici.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_opensansreg.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\opensansreg.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_map2.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\map2.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_robotcondensedregular.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\robotcondensedregular.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_map2_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\map2_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_life360_wallpaper.jpg.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\life360_wallpaper.jpg"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_robotoblacn.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\robotoblacn.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_ic_rectangle_7.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\ic_rectangle_7.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_splash_logo.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\splash_logo.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_opensanssuperbold.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\opensanssuperbold.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_activity_input_data.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_input_data.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_opensansbold.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\opensansbold.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_google_round.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\google_round.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_opensansbold.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\opensansbold.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_ic_rectangle_9.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\ic_rectangle_9.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_logo_gps.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\logo_gps.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_map2_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\map2_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_rounded.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\rounded.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_map2_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\map2_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\menu\\nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_shape_round_button.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\shape_round_button.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_map2_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\map2_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_gps_last.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_gps_last.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_data_usage.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_data_usage.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_google3_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\google3_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_robotoblacn.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\robotoblacn.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap_spotify_wallpaper.jpg.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap\\spotify_wallpaper.jpg"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google3.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google3.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\spinner_item.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_ic_rectangle_1.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\ic_rectangle_1.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google.png"
     },
     {
-        "merged": "com.example.login_app-merged_res-32:/layout_activity_auth.xml.flat",
-        "source": "com.example.login_app-main-34:/layout/activity_auth.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_shape_round_button_white.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\shape_round_button_white.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_logo_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\logo_google.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google3_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google3_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google3_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google3_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_ic_mail_fill0_wght400_grad0_opsz48.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\ic_mail_fill0_wght400_grad0_opsz48.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\layout_spinner_item.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\layout\\spinner_item.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google3_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google3_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_baseline.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_baseline.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google3_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google3_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\anim_to_bottom_anim.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\anim\\to_bottom_anim.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google3_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google3_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_settings.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_settings.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google3_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google3_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_robotocondensedbold.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\robotocondensedbold.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_shape_circle_button.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\shape_circle_button.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_rounded.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\rounded.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google3_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google3_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_map2.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\map2.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_baseline.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_baseline.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_test.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_test.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_mapa1_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\mapa1_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google3_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google3_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_robotcondensedregular.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\robotcondensedregular.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google3_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google3_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_google_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\google_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_map2_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\map2_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_gps_live.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_gps_live.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_splash_logo.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\splash_logo.png"
+        "merged": "com.example.login_app-merged_res-33:/layout_nav_header.xml.flat",
+        "source": "com.example.login_app-main-35:/layout/nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_map2_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\map2_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_map2_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\map2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google3_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google3_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google3.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google3.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google3_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google3_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_activity_auth.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\activity_auth.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_shape_round_button_color.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\shape_round_button_color.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\anim_rotate_open_anim.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\anim\\rotate_open_anim.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\layout_activity_auth.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\layout\\activity_auth.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_map2_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\map2_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google3_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google3_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_google3.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\google3.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_googlelogo2_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\googlelogo2_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_icon_data_usage.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\icon_data_usage.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_googlelogo2_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\googlelogo2_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_map2_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\map2_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_ic_rectangle_1.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\ic_rectangle_1.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_test.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_test.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\anim_rotate_close_anim.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\anim\\rotate_close_anim.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_gps_last.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_gps_last.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_map2_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\map2_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_google3.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\google3.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\layout_bottomsheet_fragment.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\layout\\bottomsheet_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\font_robotobold.ttf.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\font\\robotobold.ttf"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google3.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google3.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_google_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\google_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google3.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google3.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_mapa1_background.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\mapa1_background.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google3.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google3.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google3_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google3_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_ic_rectangle_9.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\ic_rectangle_9.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_shape_circle_button.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\shape_circle_button.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_google.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\google.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\menu_menu.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\menu\\menu.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_robotoregular.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\robotoregular.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_icon_settings.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\icon_settings.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable-v24_ic_rectangle_7.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable-v24\\ic_rectangle_7.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_map2.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\map2.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_google3_round.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\google3_round.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable-v24_backarrow_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable-v24\\backarrow_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_map2.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\map2.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-hdpi_google_foreground.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-hdpi\\google_foreground.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxxhdpi_map2_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxxhdpi\\map2_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_google_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\google_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\layout_activity_input_data.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\layout\\activity_input_data.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_map2_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\map2_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_shape_round_button.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\shape_round_button.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_map2.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\map2.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\menu\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google3_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google3_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-mdpi_google.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-mdpi\\google.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_map2.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\map2.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xhdpi_google_round.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xhdpi\\google_round.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xhdpi_google_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xhdpi\\google_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\mipmap-xxhdpi_map2.png.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\mipmap-xxhdpi\\map2.png"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxhdpi_google3_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxhdpi\\google3_round.png"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\drawable_google3_background.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\drawable\\google3_background.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_robotocondensedbold.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\robotocondensedbold.ttf"
     },
     {
-        "merged": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\dario\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google3.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google3.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_map2.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\map2.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_google.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\font_opensanssuperbold.ttf.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\font\\opensanssuperbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_map2.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\map2.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\anim_from_bottom_anim.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\anim\\from_bottom_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-mdpi_map2_foreground.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-mdpi\\map2_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\mipmap-hdpi_map2_round.png.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\mipmap-hdpi\\map2_round.png"
+    },
+    {
+        "merged": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-merged_res-33:\\drawable_bottomsheet_shape.xml.flat",
+        "source": "C:\\Users\\alejo\\.gradle\\daemon\\7.3.3\\com.example.login_app-main-35:\\drawable\\bottomsheet_shape.xml"
     }
 ]

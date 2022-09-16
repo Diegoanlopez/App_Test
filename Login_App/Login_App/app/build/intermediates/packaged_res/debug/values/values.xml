@@ -32,22 +32,29 @@
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="app_name">Login App</string>
-    <string name="default_web_client_id" translatable="false">976742318083-ffn65vb8snrma6hjhibchps9oos2bn5h.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">976742318083</string>
-    <string name="google_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
-    <string name="google_app_id" translatable="false">1:976742318083:android:5b19889ba1d37203f44e36</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAphsLwT0Sw4YrmPZx14JY33eTaBYug1UE</string>
+    <string name="close">Close</string>
+    <string name="default_web_client_id" translatable="false">153637431800-fcii0sh3d2sbf06bmnsfkhjq7cidla0r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">153637431800</string>
+    <string name="google_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
+    <string name="google_app_id" translatable="false">1:153637431800:android:43039691330a3133438e0d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDVwlnbUyozwxc2zP_WIg18MDYz-GP7s9U</string>
     <string name="google_maps_key">AIzaSyBUfavfzsAQDeRCnukI0KvCA8bTEia86BY</string>
-    <string name="google_storage_bucket" translatable="false">my-firebase-gps.appspot.com</string>
+    <string name="google_storage_bucket" translatable="false">gps-bikes.appspot.com</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="open">Open</string>
     <string name="prefs_file">com.example.login_app.PREFERENCE.FILE_KEY</string>
-    <string name="project_id" translatable="false">my-firebase-gps</string>
+    <string name="project_id" translatable="false">gps-bikes</string>
     <string name="title_activity_input_data">InputDataActivity</string>
     <string name="welcome">"Welcome !"</string>
     <style name="BlueButtonTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/blue_custom</item>
+    </style>
+    <style name="BottomNavigationViewTextStyle">
+        ...
+        <item name="android:fontFamily">@font/robotoregular</item>
+        ...
     </style>
     <style name="ButtonUI1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/UIButton1</item>

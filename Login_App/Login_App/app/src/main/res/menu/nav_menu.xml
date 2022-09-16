@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Configuracion"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:title="Home"
+                />
+            <item
+                android:id="@+id/nav_Option"
+                android:title="Option"
+                />
+            <item
+                android:id="@+id/nav_Info"
+                android:title="Info"
+                />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Informacion"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/nav_Report"
+                android:title="Reportar un problema"
+                />
+            <item
+                android:id="@+id/nav_Puntuar"
+                android:title="Califica la aplicacion"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Cuenta"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/nav_Logout"
+                android:title="Cerrar Sesion"
+            />
+        </menu>
+    </item>
+
+
+</menu>
